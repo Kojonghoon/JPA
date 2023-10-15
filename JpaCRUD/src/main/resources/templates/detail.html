@@ -13,7 +13,7 @@
 		<label for="title">제목 :</label>
 		<input type="text" name="title" id="title" th:value="${board.title}" disabled>
 		<label for="content">내용 :</label>
-		<textarea name="content" id="content" th:value="${board.content}" disabled></textarea>
+		<input name="content" id="content" th:value="${board.content}" disabled></input>
 		<a th:href="@{/board/update/{idx}(idx=${board.idx})}" id="update">수정</a>
 		<a th:href="@{/board/delete/{idx}(idx=${board.idx})}" id="delete">삭제</a>
 	</div>
