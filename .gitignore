@@ -44,3 +44,10 @@ JpaCRUD/gradle/wrapper/gradle-wrapper.properties
 JpaCRUD/build.gradle
 JpaCRUD/gradlew
 JpaCRUD/settings.gradle
+jpa/build.gradle
+jpa/gradlew
+jpa/gradlew.bat
+jpa/settings.gradle
+jpa/gradle/wrapper/gradle-wrapper.jar
+jpa/gradle/wrapper/gradle-wrapper.properties
+jpa/src/main/resources/application.properties
